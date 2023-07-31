@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Tangerine:wght@400;700&display=swap');
+
+body{
+    font-family: Tangerine; 
+    background: lightgray;
+}
+
+h1,h2,a{
+    font-family: Borel, serif;
+}
+h1{
+    color: cornflowerblue;
+    font-size: 48px;
+}
+
+h2{
+    color: brown;
+    font-size: 36px;
+}
+
+p{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background: brown;
+    padding: 8px 12px;
+    border-radius: 12px;
+}
+a:hover{
+    background: red;
+}
+
+div{
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    background: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    padding: 30px;
+    border-radius: 20px;
+    /* box-sizing: border-box; */
+}
+
+#profile-picture{
+    width: 300px;
+}
+
+.small-rounded{
+    border-radius: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+}
+
+.social-link{
+    background-color: cornflowerblue;
+}
