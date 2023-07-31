@@ -1,0 +1,55 @@
+.card-white{
+    background: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+    padding: 15px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.image{
+    height: 200px;
+    background-image: url('https://source.unsplash.com/random');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.card-white ul{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    text-align: right;
+    color: #b0b0b0;
+}
+
+.card-white li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.card-white i{
+    margin-right: 3px;
+}
+
+.card .avatar{
+    width: 50px;
+}
+
+.card-bottom{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.card{
+    width: 100%;
+}
+.card-white:hover .btn{
+    opacity: 1;
+    transition: all 300ms;
+}
+
+.card-container{
+    display: flex;
+    gap: 20px;
+}
