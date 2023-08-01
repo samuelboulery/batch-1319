@@ -1,0 +1,10 @@
+.banner{
+    padding: 100px 0;
+    background-image: url("../../images/background.jpg");
+    color: white;
+    margin-bottom: 60px;
+}
+
+.banner p{
+    width: 50%;
+}
